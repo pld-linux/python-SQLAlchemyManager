@@ -9,6 +9,7 @@ Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/S/SQLAlchemyManager/%{fname}-%{version}.tar.gz
 # Source0-md5:	068b29d8e4ef97839d96a4945df4fcf9
 URL:		http://pypi.python.org/pypi/SQLAlchemyManager
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python >= 1:2.5
 BuildRequires:	python-setuptools
 BuildRequires:	rpm-pythonprov
